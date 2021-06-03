@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "https://cdn.pixabay.com/photo/2015/01/20/13/13/samsung-605439_1280.jpg",
+    "title": "音乐",
+    "content": "我喜爱的音乐",
+    "type": "1"
+  },
+  {
+    "icon": "https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_1280.jpg",
+    "title": "网络视频",
+    "content": "我喜爱的网络视频",
+    "type": "2"
+  },
+  {
+    "icon": "https://cdn.pixabay.com/photo/2014/02/02/17/41/photos-256889_1280.jpg",
+    "title": "网络图片",
+    "content": "我找到的网络图片",
+    "type": "3"
+  },
+  {
+    "icon": "https://cdn.pixabay.com/photo/2021/05/12/18/27/school-class-6248868_1280.jpg",
+    "title": "班级大家庭",
+    "content": "展示同学头像，姓名，籍贯",
+    "type": "4"
+  },
+  {
+    "icon": "https://cdn.pixabay.com/photo/2018/02/16/22/08/bird-3158784_1280.jpg",
+    "title": "补间动画",
+    "content": "补间动画",
+    "type": "5"
+  },
+  {
+    "icon": "https://cdn.pixabay.com/photo/2017/08/25/15/16/dove-2680487_1280.jpg",
+    "title": "逐帧动画",
+    "content": "逐帧动画",
+    "type": "6"
+  },
+  {
+    "icon": "https://cdn.pixabay.com/photo/2016/10/19/13/42/eagle-1753002_1280.jpg",
+    "title": "抽屉动画",
+    "content": "抽屉动画",
+    "type": "7"
+  }
+]

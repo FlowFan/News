@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.news">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.News">
+        <activity
+            android:name=".MusicActivity"
+            android:label="我喜爱的音乐" />
+        <activity
+            android:name=".VideoActivity"
+            android:label="我喜爱的网络视频" />
+        <activity
+            android:name=".PhotoActivity"
+            android:label="我找到的网络图片" />
+        <activity
+            android:name=".ClassActivity"
+            android:label="班级大家庭"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".TweenActivity"
+            android:label="补间动画" />
+        <activity
+            android:name=".FrameActivity"
+            android:label="逐帧动画" />
+        <activity
+            android:name=".DrawerActivity"
+            android:label="抽屉动画"
+            android:theme="@style/Theme.News.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>
